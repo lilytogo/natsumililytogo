@@ -330,7 +330,7 @@ padding: 0 0px 0 100px;
 }
 
 ul:nth-child(1){
-  color: #4caf50;
+  color:#ba55d3;
 }
 
 .timeline li:before{
@@ -338,7 +338,7 @@ ul:nth-child(1){
   content: counter(year);
   width: 50px;
   height: 50px;
-  border: 3px solid #4caf50;
+  border: 3px solid #ba55d3;
   border-radius: 50%;
   display: block;
   text-align: center;
@@ -369,23 +369,36 @@ ul:nth-child(1){
   color: #555555;
 }
 .timeline li.active:before{
-  background: #4caf50;
+  background:#ba55d3;
   color: #F1F1F1;
 }
 
 .timeline li.active + li:after{
-  background: #4caf50;
+  background: #ba55d3;
 }
 #content7{
   display: flex;
   padding: 100px 15px 0 160px;
   background: white;
-  height: 400px;
+  height: 50px;
   font-family: "Gill Sans", sans-serif;
 
 }
+#content61{
+  display: flex;
+  padding: 100px 60px 0 100px;
+  background: white;
+  height: 530px;
+  font-family: "Gill Sans", sans-serif;
+
+
+}
+.artgellery{
+  margin-left: 30px;
+}
 .text7{
-  flex:4;
+  margin-left: 50px;
+  flex:3;
   background: white;
 }
 .blank{
